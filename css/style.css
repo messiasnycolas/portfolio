@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Rubik', sans-serif;
+}
+#navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+    border-bottom: solid .18rem rgb(255, 0, 221); 
+    height: auto;
+    background-color: rgb(29, 29, 29);
+    user-select: none;
+}
+#brand-mobile-fix {
+    display: inline-block;
+}
+#brand {
+    align-self: center;
+    font-family: 'Megrim', cursive;
+    font-size: 2em;
+    text-shadow: -2px -2px rgb(255, 0, 221);
+    color: rgb(68, 255, 78);
+    font-weight: bold;
+    justify-self: flex-end;
+    flex: 1 1 auto;
+    padding-left: 2rem;
+}
+d {
+    display: inline-block;
+    font-family: 'KoHo', sans-serif;
+    font-size: .4em;
+    text-shadow: 3px 3px black;
+    color: #e6e6e6;
+    flex: 1 1 auto;
+    align-self: flex-end;
+}
+#navbar-list {
+    list-style-type: none;
+    max-width: 1980px;
+    padding-right: 2rem;
+    font-family: 'Kanit', sans-serif;
+    flex: 0 1 auto;
+}
+#navbar-list > li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+#navbar-list li:hover {
+    color: #743ad5;
+    background: -webkit-linear-gradient(#d53a9d, #a97bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: #DDD;
+}
